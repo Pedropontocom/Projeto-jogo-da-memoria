@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nome</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script defer src="../js/script3.js"></script>
+</head>
+<body id="Nome">
+
+  <form class="login_form">
+
+    <div class="login_header">
+      <h1>New Memory Game</h1>
+    </div>
+
+    <input type="text" placeholder="Name" class="login_input">
+    <button type="submit" class="login_button" disabled>Create New World</button>
+
+  </form>
+
+<footer id="footer2">
+ <img src="../imgs/fundoclaro.webp">
+ <button id="cancelar">Done</button>
+</footer>
+<script>
+  document.getElementById('cancelar').addEventListener('click', function() {
+    location.href = '../index.html';
+  });
+</script>
+</body>
+</html>
