@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: minecraft;
+  src: url("../fonts/Minecrafter.Alt.ttf");
 }
 
 @font-face {
