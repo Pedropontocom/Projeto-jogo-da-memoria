@@ -221,6 +221,7 @@ header {
   margin-right: 10px;
 }
 
+
 .btn-minecraft {
   background: #727272;
   color: rgb(247, 247, 247);
@@ -246,6 +247,7 @@ header {
 }
 
 #btn-minecraft1,
+#btn-minecraft2,
 #btn-minecraft3,
 #btn-minecraft4,
 #btn-minecraft5 {
@@ -264,6 +266,7 @@ header {
 }
 
 #btn-minecraft1:hover,
+#btn-minecraft2:hover,
 #btn-minecraft3:hover,
 #btn-minecraft4:hover,
 #btn-minecraft5:hover {
@@ -271,6 +274,7 @@ header {
 }
 
 #btn-minecraft1:focus,
+#btn-minecraft2:focus,
 #btn-minecraft3:focus,
 #btn-minecraft4:focus,
 #btn-minecraft5:focus {
