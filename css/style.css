@@ -354,7 +354,7 @@ header {
 }
 
 #footer2 {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -364,6 +364,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 #footer2 img {
