@@ -2,12 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: minecraft;
-  src: url("../fonts/Minecrafter.Alt.ttf");
+  font-family: "minecraft";
 }
 
 @font-face {
-  font-family: minecraft;
+  font-family: "minecraft";
   src: url("../fonts/Minecrafter.Alt.ttf");
 }
 
@@ -201,49 +200,23 @@ header {
 }
 
 .menu {
+  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33.3%;
   margin-top: 2rem;
   margin-bottom: 1.25rem;
 }
 
 .menu-options {
+  width: calc(100% / 3);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 33.3%;
+  gap: 0.2rem;
 }
 
 .menu-options .btn-minecraft:first-child {
   margin-right: 10px;
-}
-
-
-.btn-minecraft {
-  background: #727272;
-  color: rgb(247, 247, 247);
-  width: 100%;
-  padding: 1rem 0;
-  margin-bottom: 0.75rem;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
-  font-size: 1.25rem;
-  letter-spacing: 0.025em;
-  border: 2px solid rgba(0, 0, 0, 1);
-  box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.5),
-    inset -3px -3px 0 rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-}
-
-.btn-minecraft:hover {
-  background: rgba(115, 107, 221, 1);
-}
-
-.btn-minecraft:focus {
-  color: rgb(246, 246, 44);
-  outline: none;
 }
 
 #btn-minecraft1,
@@ -251,9 +224,9 @@ header {
 #btn-minecraft3,
 #btn-minecraft4,
 #btn-minecraft5 {
+  flex: 1;
   background: #727272;
   color: rgb(247, 247, 247);
-  width: 100%;
   padding: 1rem 0;
   margin-bottom: 0.75rem;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
@@ -263,6 +236,13 @@ header {
   box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.5),
     inset -3px -3px 0 rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  display: block;
+}
+
+#btn-minecraft1,
+#btn-minecraft2,
+#btn-minecraft3 {
+  width: 100%;
 }
 
 #btn-minecraft1:hover,
@@ -417,7 +397,7 @@ header {
   font-family: minecraft;
 }
 
-.login_form{
+.login_form {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -434,7 +414,7 @@ header {
 }
 
 .login_header h1 {
-  color:  rgb(247, 247, 247);
+  color: rgb(247, 247, 247);
   font-size: 1.5em;
 }
 
